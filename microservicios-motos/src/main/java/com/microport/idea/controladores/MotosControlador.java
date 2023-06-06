@@ -47,7 +47,7 @@ public class MotosControlador {
 	}
 	
 	@PostMapping
-	public ResponseEntity<Motos> guardarCoche( @RequestBody Motos usuario ){
+	public ResponseEntity<Motos> guardarMoto( @RequestBody Motos usuario ){
 		
 		Motos usuarios = motosServicio.guardar( usuario );
 		return ResponseEntity.ok( usuarios );

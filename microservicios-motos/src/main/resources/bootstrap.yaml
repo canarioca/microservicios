@@ -1,6 +1,6 @@
 spring:
   application:
-    name: microservicios-motos
+    name: microservicios-motos-service
   cloud:
     config:
       enabled: true

@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          default-label: config-server
+          default-label: microservicios-eureka
           uri: https://github.com/canarioca/microservicios
           search-paths: config-data
   application:

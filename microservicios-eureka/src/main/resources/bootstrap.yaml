@@ -1,6 +1,6 @@
 spring:
   application:
-    name: microservicios-coches-service
+    name: microservicios-eureka
   cloud:
     config:
       enabled: true
